@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.collection;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,14 +6,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.util.*;
 
 @SpringBootApplication
-public class CollectionSetMapList {
+public class SetMapList {
 
 	public static void main(String[] args) {
 		/*
 		List (es. ArrayList, LinkedList): mantiene l’ordine di inserimento, permette duplicati, accesso tramite indice.
 		Set (es. HashSet, LinkedHashSet, TreeSet): non permette duplicati, non garantisce l’ordine (tranne LinkedHashSet e TreeSet).
 		Map (es. HashMap, LinkedHashMap, TreeMap): associa chiavi a valori, non permette chiavi duplicate.*/
-		SpringApplication.run(CollectionSetMapList.class, args);
+		SpringApplication.run(SetMapList.class, args);
 		List<Character> lista = new ArrayList<>();
 		lista.add('A');
 		lista.add('B');
